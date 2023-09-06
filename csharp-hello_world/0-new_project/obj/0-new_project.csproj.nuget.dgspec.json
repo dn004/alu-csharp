@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/alu-csharp/csharp-hello_world/0-new_project/new_project/new_project.csproj": {}
+    "/alu-csharp/csharp-hello_world/0-new_project/0-new_project.csproj": {}
   },
   "projects": {
-    "/alu-csharp/csharp-hello_world/0-new_project/new_project/new_project.csproj": {
+    "/alu-csharp/csharp-hello_world/0-new_project/0-new_project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/alu-csharp/csharp-hello_world/0-new_project/new_project/new_project.csproj",
-        "projectName": "new_project",
-        "projectPath": "/alu-csharp/csharp-hello_world/0-new_project/new_project/new_project.csproj",
+        "projectUniqueName": "/alu-csharp/csharp-hello_world/0-new_project/0-new_project.csproj",
+        "projectName": "0-new_project",
+        "projectPath": "/alu-csharp/csharp-hello_world/0-new_project/0-new_project.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/alu-csharp/csharp-hello_world/0-new_project/new_project/obj/",
+        "outputPath": "/alu-csharp/csharp-hello_world/0-new_project/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
