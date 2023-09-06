@@ -8,4 +8,3 @@ class Program
 		Console.WriteLine(String.Format("{0:0.00}", number));
         }
 }
-
