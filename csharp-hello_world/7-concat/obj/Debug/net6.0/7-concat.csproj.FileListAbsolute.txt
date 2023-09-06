@@ -1,0 +1,5 @@
+/alu-csharp/csharp-hello_world/7-concat/obj/Debug/net6.0/7-concat.csproj.AssemblyReference.cache
+/alu-csharp/csharp-hello_world/7-concat/obj/Debug/net6.0/7-concat.GeneratedMSBuildEditorConfig.editorconfig
+/alu-csharp/csharp-hello_world/7-concat/obj/Debug/net6.0/7-concat.AssemblyInfoInputs.cache
+/alu-csharp/csharp-hello_world/7-concat/obj/Debug/net6.0/7-concat.AssemblyInfo.cs
+/alu-csharp/csharp-hello_world/7-concat/obj/Debug/net6.0/7-concat.csproj.CoreCompileInputs.cache
