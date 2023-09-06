@@ -1,0 +1,15 @@
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.csproj.AssemblyReference.cache
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.GeneratedMSBuildEditorConfig.editorconfig
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.AssemblyInfoInputs.cache
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.AssemblyInfo.cs
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.csproj.CoreCompileInputs.cache
+/alu-csharp/csharp-hello_world/8-print_variables/bin/Debug/net6.0/8-print_variables
+/alu-csharp/csharp-hello_world/8-print_variables/bin/Debug/net6.0/8-print_variables.deps.json
+/alu-csharp/csharp-hello_world/8-print_variables/bin/Debug/net6.0/8-print_variables.runtimeconfig.json
+/alu-csharp/csharp-hello_world/8-print_variables/bin/Debug/net6.0/8-print_variables.dll
+/alu-csharp/csharp-hello_world/8-print_variables/bin/Debug/net6.0/8-print_variables.pdb
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.dll
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/refint/8-print_variables.dll
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.pdb
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/8-print_variables.genruntimeconfig.cache
+/alu-csharp/csharp-hello_world/8-print_variables/obj/Debug/net6.0/ref/8-print_variables.dll
