@@ -1,4 +1,4 @@
-﻿ï»¿using System;
+﻿using System;
 
 class Program
 {
@@ -15,4 +15,5 @@ class Program
 	else if (number == 0){
         Console.WriteLine("is zero");
     }
+}
 }
