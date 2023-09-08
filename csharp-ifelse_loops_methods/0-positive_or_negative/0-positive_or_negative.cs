@@ -12,13 +12,8 @@ class Program
 	else if (number < 0){
         Console.WriteLine($"{number}is negative");
     }
-<<<<<<< HEAD
 	else{
-        Console.WriteLine("is zero");
-=======
-	else if (number == 0){
         Console.WriteLine($"{number}is zero");
->>>>>>> 21b3698b401c938f003a2bbaca033d68d985180c
     }
 }
 }

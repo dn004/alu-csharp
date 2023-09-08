@@ -6,14 +6,15 @@ class Program
     {
         Random rndm = new Random();
         int number = rndm.Next(-10000, 10000);
-	if(number > 5){
-	Console.WriteLine($"The last digit of {number} and is greater than 5");
+        int lastnumber = number % 10;
+	if(lastnumber > 5){
+	Console.WriteLine($"The last digit of {number} is {lastnumber} and is greater than 5");
     }
-	else if(number == 0){
-        Console.WriteLine($"The last digit of {number} and is 0");
+	else if(lastnumber == 0){
+        Console.WriteLine($"The last digit of {number} is {lastnumber} and is 0");
     }
-	else if(number < 6){
-        Console.WriteLine($"The last digit of {number} and is less than 6 and not 0");
+	else if(lastnumber < 6){
+        Console.WriteLine($"The last digit of {number} is {lastnumber} and is less than 6 and not 0");
     }
 }
 }
