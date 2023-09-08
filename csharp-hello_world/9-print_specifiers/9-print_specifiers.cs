@@ -1,4 +1,4 @@
-﻿ï»¿using System;
+﻿using System;
 
 class Program
 {
@@ -6,7 +6,7 @@ class Program
 	{
 		double percent = .7553;
 		double currency = 98765.4321;
-		Console.WriteLIne("Percent: " + percent.ToString("#0.##%"));
-		Console.WriteLine("Currency: " + currency.ToString("C2"));	
+		Console.WriteLine("Percent: " + percent.ToString("#0.##%"));
+		Console.WriteLine("Currency: " + currency.ToString("C2") +"\n");	
 	}
 }
