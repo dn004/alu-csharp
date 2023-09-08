@@ -12,7 +12,7 @@ class Program
 	else if (number < 0){
         Console.WriteLine("is negative");
     }
-	else if (number == 0){
+	else{
         Console.WriteLine("is zero");
     }
 }
