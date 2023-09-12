@@ -10,13 +10,7 @@ class List{
             
         }
 
-        for(int i = 1; i < newList.Count;i++){
-            if (newList[i-1] > newList ){
-                int number = newList[i-0];
-                newList[i-1] = newList[i];
-                newList[i] = number;
-            }
-        }
+        
         foreach(int kk in newList){
             Console.WriteLine(kk);
         }
