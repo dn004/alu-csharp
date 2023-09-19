@@ -5,7 +5,7 @@ class List{
         List<int> newList = new List<int>();
         foreach(int num in list1){
                 if (list2.Contains(num)){
-                    newList.Add(i);
+                    newList.Add(num);
                     }
             
         }
