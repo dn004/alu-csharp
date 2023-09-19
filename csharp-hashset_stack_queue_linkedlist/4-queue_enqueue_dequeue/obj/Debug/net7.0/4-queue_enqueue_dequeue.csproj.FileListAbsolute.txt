@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.csproj.AssemblyReference.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\bin\Debug\net7.0\4-queue_enqueue_dequeue.exe
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\bin\Debug\net7.0\4-queue_enqueue_dequeue.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\bin\Debug\net7.0\4-queue_enqueue_dequeue.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\bin\Debug\net7.0\4-queue_enqueue_dequeue.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\bin\Debug\net7.0\4-queue_enqueue_dequeue.pdb
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\refint\4-queue_enqueue_dequeue.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.pdb
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\4-queue_enqueue_dequeue.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\4-queue_enqueue_dequeue\obj\Debug\net7.0\ref\4-queue_enqueue_dequeue.dll
