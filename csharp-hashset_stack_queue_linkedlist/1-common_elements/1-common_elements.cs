@@ -10,10 +10,7 @@ class List{
             
         }
 
-        
-        foreach(int kk in newList){
-            Console.WriteLine(kk);
-        }
+        newList.Sort();
         return newList;
     }
 
