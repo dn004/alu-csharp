@@ -40,13 +40,13 @@ class MyQueue
         aQueue.Enqueue(newItem);
 
         bool containsSearch = aQueue.Contains(search);
-        if(containsSearch = true)
+        if(containsSearch == true)
         {
             Console.WriteLine($"Queue contains \"{search}\": {containsSearch}");
         }
         for(int i = 0; i <= aQueue.Count; i++)
          {
-            if(containsSearch = true)
+            if(containsSearch == true)
             {
                 aQueue.Dequeue();
             }

@@ -43,7 +43,7 @@ class MyStack
 
          for(int i = 0; i <= aStack.Count; i++)
          {
-            if(containsSearch = true)
+            if(containsSearch == true)
             {
                 aStack.Pop();
             }
