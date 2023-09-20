@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.csproj.AssemblyReference.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\net7.0\8-linkedlist_find.exe
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\net7.0\8-linkedlist_find.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\net7.0\8-linkedlist_find.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\net7.0\8-linkedlist_find.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\bin\Debug\net7.0\8-linkedlist_find.pdb
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\refint\8-linkedlist_find.dll
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.pdb
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\8-linkedlist_find.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-hashset_stack_queue_linkedlist\8-linkedlist_find\obj\Debug\net7.0\ref\8-linkedlist_find.dll
