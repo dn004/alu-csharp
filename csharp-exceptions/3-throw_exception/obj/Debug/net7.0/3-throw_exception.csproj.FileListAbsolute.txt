@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.csproj.AssemblyReference.cache
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\bin\Debug\net7.0\3-throw_exception.exe
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\bin\Debug\net7.0\3-throw_exception.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\bin\Debug\net7.0\3-throw_exception.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\bin\Debug\net7.0\3-throw_exception.dll
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\bin\Debug\net7.0\3-throw_exception.pdb
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.dll
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\refint\3-throw_exception.dll
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.pdb
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\3-throw_exception.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-exceptions\3-throw_exception\obj\Debug\net7.0\ref\3-throw_exception.dll
