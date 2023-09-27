@@ -2,17 +2,6 @@
 
 class LList
 {
-    static void Main(string[] args)
-    {
-        LinkedList<int> llist;
-        int size;
-
-        size = 8;
-
-        llist = LList.CreatePrint(size);
-        Console.WriteLine("-------------");
-        Console.WriteLine("Linked List Length: " + llist.Count);
-    }
     public static LinkedList<int> CreatePrint(int size)
     {
         LinkedList<int> myllist = new LinkedList<int>();
