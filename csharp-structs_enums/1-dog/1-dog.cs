@@ -1,5 +1,12 @@
 ﻿using System;
 
+public enum Rating 
+{
+    Good,
+    Great,
+    Excellent,
+}
+
 struct Dog
 {
     public string name;
