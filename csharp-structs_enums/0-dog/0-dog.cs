@@ -1,11 +1,11 @@
-﻿using System;
+﻿using system;
 
-class Program 
+class Program
 {
     public enum Rating 
     {
         Good,
-        Great, 
+        Great,
         Excellent,
     }
 }
