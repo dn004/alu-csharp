@@ -1,11 +1,8 @@
 ﻿using System;
 
-class NewEnum
+public enum Rating 
 {
-    public enum Rating 
-    {
-        Good,
-        Great,
-        Excellent,
-    }
+    Good,
+    Great,
+    Excellent,
 }
