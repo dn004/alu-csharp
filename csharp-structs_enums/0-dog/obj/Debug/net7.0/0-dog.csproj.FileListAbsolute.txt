@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.csproj.AssemblyReference.cache
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\bin\Debug\net7.0\0-dog.exe
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\bin\Debug\net7.0\0-dog.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\bin\Debug\net7.0\0-dog.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\bin\Debug\net7.0\0-dog.dll
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\bin\Debug\net7.0\0-dog.pdb
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.dll
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\refint\0-dog.dll
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.pdb
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\0-dog.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-structs_enums\0-dog\obj\Debug\net7.0\ref\0-dog.dll
