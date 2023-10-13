@@ -13,3 +13,4 @@ C:\Users\user\Documents\alu-csharp\csharp-classes\2-enemy\obj\Debug\net7.0\refin
 C:\Users\user\Documents\alu-csharp\csharp-classes\2-enemy\obj\Debug\net7.0\2-enemy.pdb
 C:\Users\user\Documents\alu-csharp\csharp-classes\2-enemy\obj\Debug\net7.0\2-enemy.genruntimeconfig.cache
 C:\Users\user\Documents\alu-csharp\csharp-classes\2-enemy\obj\Debug\net7.0\ref\2-enemy.dll
+C:\Users\user\Documents\alu-csharp\csharp-classes\2-enemy\bin\Debug\net7.0\2-enemy.xml
