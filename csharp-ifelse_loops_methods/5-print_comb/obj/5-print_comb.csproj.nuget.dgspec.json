@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/alu-csharp/csharp-ifelse_loops_methods/5-print_comb/5-print_comb.csproj": {}
+    "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\5-print_comb\\5-print_comb.csproj": {}
   },
   "projects": {
-    "/alu-csharp/csharp-ifelse_loops_methods/5-print_comb/5-print_comb.csproj": {
+    "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\5-print_comb\\5-print_comb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/alu-csharp/csharp-ifelse_loops_methods/5-print_comb/5-print_comb.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\5-print_comb\\5-print_comb.csproj",
         "projectName": "5-print_comb",
-        "projectPath": "/alu-csharp/csharp-ifelse_loops_methods/5-print_comb/5-print_comb.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/alu-csharp/csharp-ifelse_loops_methods/5-print_comb/obj/",
+        "projectPath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\5-print_comb\\5-print_comb.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\5-print_comb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

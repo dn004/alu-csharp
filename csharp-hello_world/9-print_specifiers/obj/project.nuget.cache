@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MBE+j1tHyJoD9QmdSHLnZAUo/MeDxqaYwIak/PhI/4iM7CTGN4NUtzWycyueusgcYu7STcTnk5to8iD/Ic7LZA==",
+  "dgSpecHash": "dUv+/OH59D44uiLz0uZNFVisyp1r4u2rwEAcH1xQj+sOBXuZCH43z+VmjcT5uIEnEWQ+cTjkBatX57Vjhz6kNA==",
   "success": true,
-  "projectFilePath": "/alu-csharp/csharp-hello_world/9-print_specifiers/9-print_specifiers.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-hello_world\\9-print_specifiers\\9-print_specifiers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

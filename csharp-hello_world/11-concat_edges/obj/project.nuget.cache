@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "EfciVorb0C6ZdQTjrw8ZL1glCaWT88BscX/fcAsyilXaIHF2JOLC0NJsRo4lQVKSQJQVkHW1zrseIe2VfMxmDw==",
+  "dgSpecHash": "XarVbJQty1gPj4YQF1+1TqT6RUM6CCs1FDylNtikc96DrNEmOSeZD53nMVTNLayAWe7Zlvnh8qoux/i18Ue5Zw==",
   "success": true,
-  "projectFilePath": "/alu-csharp/csharp-hello_world/11-concat_edges/11-concat_edges.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-hello_world\\11-concat_edges\\11-concat_edges.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

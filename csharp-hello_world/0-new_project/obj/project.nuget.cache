@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "65ilWa5SS3OjGue7gnZqOASzDlA5yhoEPzFoQBLU3N1TUYMQl8GFPSVC3H3rCDLQRhbgZv/hAIHjNP/30EErHg==",
+  "dgSpecHash": "b9xEsxKGTGysiIucGZrIUpJaxMFq0gilXS5HQzuVqFvs0Qsokc37zdeUktFo3GYNKArksIn0RgWtUmodQHnnhg==",
   "success": true,
-  "projectFilePath": "/alu-csharp/csharp-hello_world/0-new_project/0-new_project.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-hello_world\\0-new_project\\0-new_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }

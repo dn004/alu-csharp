@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yHuwGRYFQsXz6+f6prVO5bqMmTijnnYkN2g468zuCNEKgbMlmpO4mIFmm03lZbr1z/QM35pwlRHehFqjYLiRaw==",
+  "dgSpecHash": "PQaD12zU3D60i7iPrbJcScvN+7RjnygnRNyxi2gebEWarAUYEiqPdXFIAM3hZ+XjqGFz5Fc2siNEYab8DWSYpA==",
   "success": true,
-  "projectFilePath": "/alu-csharp/csharp-ifelse_loops_methods/10-print_line/10-print_line.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-ifelse_loops_methods\\10-print_line\\10-print_line.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
