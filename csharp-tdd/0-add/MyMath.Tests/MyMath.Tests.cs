@@ -9,7 +9,7 @@ namespace Tests
     [TestFixture]
     public class Test_NumberAddition
     {
-        private Opps _myMath;
+        private Operations _myMath;
 
         /// <summary>
         /// This method is called before each test to set up the test environment.
@@ -17,7 +17,7 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            _myMath = new Opps();
+            _myMath = new Operations();
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Tests
         public void AdditionOperation()
         {
             bool state = false;
-            if (Opps.Add(2, 2) == 4)
+            if (Operations.Add(2, 2) == 4)
             {
                 state = true;
             }

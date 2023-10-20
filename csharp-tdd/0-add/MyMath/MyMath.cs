@@ -5,7 +5,7 @@ namespace MyMath
     /// <summary>
     /// This class provides mathematical operations.
     /// </summary>
-    public class Opps
+    public class Operations
     {
         /// <summary>
         /// Returns the addition of two integers.
