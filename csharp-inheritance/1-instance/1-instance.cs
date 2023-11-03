@@ -4,14 +4,14 @@
 class Obj
 {
 
-    public static bool IsOfTypeInt(Object obj)
+    public static bool IsInstanceOfArray(object obj)
     {
-        if(obj is int)
+        if(obj is Array)
         {
-
             return true;
         }
-
+        
         return false;
     }
+
 }
