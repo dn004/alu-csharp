@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.exe
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.xml
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.dll
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\bin\Debug\net7.0\2-subclass.pdb
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.dll
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\refint\2-subclass.dll
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.pdb
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\2-subclass.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-inheritance\2-subclass\obj\Debug\net7.0\ref\2-subclass.dll
