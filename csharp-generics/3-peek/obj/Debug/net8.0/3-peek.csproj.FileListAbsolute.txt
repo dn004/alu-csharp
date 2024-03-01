@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.sourcelink.json
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\bin\Debug\net8.0\3-peek.exe
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\bin\Debug\net8.0\3-peek.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\bin\Debug\net8.0\3-peek.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\bin\Debug\net8.0\3-peek.dll
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\bin\Debug\net8.0\3-peek.pdb
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.dll
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\refint\3-peek.dll
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.pdb
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\3-peek.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-generics\3-peek\obj\Debug\net8.0\ref\3-peek.dll
