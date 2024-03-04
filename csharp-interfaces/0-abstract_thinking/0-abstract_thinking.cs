@@ -1,21 +1,41 @@
 ﻿using System;
 
 /// <summary>
-/// Represents a base class with a name property.
+/// Base class representing an object with a name.
 /// </summary>
 public abstract class Base
 {
     /// <summary>
-    /// Gets or sets the name of the base entity.
+    /// The name of the object.
     /// </summary>
-    public string name { get; set; }
+    public string? name;
 
     /// <summary>
-    /// Overrides the ToString() method to return the name and type of the entity.
+    /// Returns a string representation of the object.
     /// </summary>
-    /// <returns>A string representing the name and type of the entity.</returns>
+    /// <returns>A string representation of the object.</returns>
     public override string ToString()
     {
-        return $"{name} is a {GetType().Name}";
+        return $"{name} is a {this.GetType()}";
     }
 }
+
+
+/*
+class Program
+{
+    static void Main(string[] args)
+    {
+        SoftwareEngineer engineer = new SoftwareEngineer();
+
+        engineer.name = "Betty";
+
+        Console.WriteLine(engineer.ToString());
+    }
+}
+class SoftwareEngineer : Base
+{
+    // Empty class
+}
+
+*/
