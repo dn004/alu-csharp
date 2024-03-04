@@ -1,77 +1,84 @@
 ﻿using System;
 
 /// <summary>
-/// Represents a generic queue.
+/// Represents a generic queue data structure.
 /// </summary>
-/// <typeparam name="T">The type of elements in the queue.</typeparam>
+/// <typeparam name="T">The type of elements stored in the queue.</typeparam>
 public class Queue<T>
 {
     /// <summary>
     /// Represents a node in the queue.
     /// </summary>
-    public class Node
+    private class Node<TNode>
     {
-        /// <summary>
-        /// Gets or sets the value of the node.
-        /// </summary>
-        public T Value { get; }
+        public TNode Value;
+        public Node<TNode> Next;
 
-        /// <summary>
-        /// Gets or sets the reference to the next node.
-        /// </summary>
-        public Node? Next { get; set; }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Node"/> class with the specified value.
-        /// </summary>
-        /// <param name="value">The value of the node.</param>
-        public Node(T value)
+        public Node(TNode newValue)
         {
-            Value = value;
+            Value = newValue;
             Next = null;
         }
     }
 
-    private Node? Head { get; set; }
-    private Node? Tail { get; set; }
-    private int Count { get; set; }
+    private Node<T> head;
+    private Node<T> tail;
+    private int count = 0;
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="Queue{T}"/> class.
+    /// Adds an element to the end of the queue.
     /// </summary>
-    public Queue()
+    /// <param name="element">The element to be added to the queue.</param>
+    public void Enqueue(T element)
     {
-        Head = null;
-        Tail = null;
-        Count = 0;
-    }
-
-    /// <summary>
-    /// Adds a new node with the specified value to the end of the queue.
-    /// </summary>
-    /// <param name="value">The value of the new node.</param>
-    public void Enqueue(T value)
-    {
-        Node newNode = new Node(value);
-        if (Head == null)
-        {
-            Head = newNode;
-            Tail = newNode;
-        }
+        Node<T> newNode = new Node<T>(element);
+        
+        if (head == null)
+            head = tail = newNode;
         else
         {
-            Tail!.Next = newNode;
-            Tail = newNode;
+            tail.Next = newNode;
+            tail = newNode;
         }
-        Count++;
+        
+        count++;
     }
 
     /// <summary>
-    /// Gets the number of nodes in the queue.
+    /// Gets the number of elements in the queue.
     /// </summary>
-    /// <returns>The number of nodes in the queue.</returns>
-    public int CountNodes()
+    /// <returns>The number of elements in the queue.</returns>
+    public int Count()
     {
-        return Count;
+        return count;
     }
 }
+
+
+/*
+class Program
+{
+    static void Main(string[] args)
+    {
+        Queue<string> myStrQ = new Queue<string>();
+
+        myStrQ.Enqueue("Hello");
+        Console.WriteLine("Number of nodes in queue: " + myStrQ.Count());
+
+        myStrQ.Enqueue("World");
+        Console.WriteLine("Number of nodes in queue: " + myStrQ.Count());
+
+        Console.WriteLine("----------");
+
+        Queue<float> myFloatQ = new Queue<float>();
+
+        myFloatQ.Enqueue(4.2f);
+        myFloatQ.Enqueue(4.2f);
+        myFloatQ.Enqueue(4.2f);
+        Console.WriteLine("Number of nodes in queue: " + myFloatQ.Count());
+
+        myFloatQ.Enqueue(-9.8f);
+        Console.WriteLine("Number of nodes in queue: " + myFloatQ.Count());
+    }
+}
+*/
