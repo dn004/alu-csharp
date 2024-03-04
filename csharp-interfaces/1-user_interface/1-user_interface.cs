@@ -1,105 +1,78 @@
 ﻿using System;
-using System.Reflection;
 
 /// <summary>
-/// Represents a base class with a name property.
+/// Base class representing an object with a name.
 /// </summary>
 public abstract class Base
 {
     /// <summary>
-    /// Gets or sets the name of the base entity.
+    /// The name of the object.
     /// </summary>
-    public string name { get; set; }
+    public string? name;
 
     /// <summary>
-    /// Overrides the ToString() method to return the name and type of the entity.
+    /// Returns a string representation of the object.
     /// </summary>
-    /// <returns>A string representing the name and type of the entity.</returns>
+    /// <returns>A string representation of the object.</returns>
     public override string ToString()
     {
-        return $"{name} is a {GetType().Name}";
+        return $"{name} is a {this.GetType()}";
+    }
+
+
+    public interface IInteractive
+    {
+        public void Interact();
+    }
+
+    public interface IBreakable
+    {
+        public int durability{ get ; set;}
+        public void Break();
+    }
+
+    public interface ICollectable
+    {
+        public bool isCollected{ get ; set;}
+        public void Collect();
     }
 }
 
-/// <summary>
-/// Represents an interface for interactive objects.
-/// </summary>
-public interface IInteractive
+class TestObject : Base, Base.IInteractive, Base.IBreakable, Base.ICollectable
 {
-    /// <summary>
-    /// Interacts with the object.
-    /// </summary>
-    void Interact();
-}
 
-/// <summary>
-/// Represents an interface for breakable objects.
-/// </summary>
-public interface IBreakable
-{
-    /// <summary>
-    /// Gets or sets the durability of the object.
-    /// </summary>
-    int durability { get; set; }
+    public int durability{ get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public bool isCollected{ get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-    /// <summary>
-    /// Breaks the object.
-    /// </summary>
-    void Break();
-}
-
-/// <summary>
-/// Represents an interface for collectable objects.
-/// </summary>
-public interface ICollectable
-{
-    /// <summary>
-    /// Gets or sets a value indicating whether the object has been collected.
-    /// </summary>
-    bool isCollected { get; set; }
-
-    /// <summary>
-    /// Collects the object.
-    /// </summary>
-    void Collect();
-}
-
-/// <summary>
-/// Represents a test object that inherits from Base and implements all three interfaces.
-/// </summary>
-public class TestObject : Base, IInteractive, IBreakable, ICollectable
-{
-    /// <summary>
-    /// Gets or sets the durability of the object.
-    /// </summary>
-    public int durability { get; set; }
-
-    /// <summary>
-    /// Gets or sets a value indicating whether the object has been collected.
-    /// </summary>
-    public bool isCollected { get; set; }
-
-    /// <summary>
-    /// Interacts with the object.
-    /// </summary>
     public void Interact()
     {
-        // Implement interaction logic
     }
 
-    /// <summary>
-    /// Breaks the object.
-    /// </summary>
     public void Break()
     {
-        // Implement break logic
     }
 
-    /// <summary>
-    /// Collects the object.
-    /// </summary>
     public void Collect()
     {
-        // Implement collect logic
+    }
+}
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        TestObject item = new TestObject();
+        Type type = item.GetType();
+
+        Console.WriteLine("Type: " + type);
+
+        Console.WriteLine("Properties:");
+        foreach (PropertyInfo info in type.GetProperties())
+            Console.WriteLine(info.Name);
+
+        Console.WriteLine("Methods:");
+        foreach (MethodInfo info in type.GetMethods())
+            Console.WriteLine(info.Name);
     }
 }
