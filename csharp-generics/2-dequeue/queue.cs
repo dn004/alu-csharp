@@ -1,98 +1,88 @@
 ﻿using System;
 
 /// <summary>
-/// Represents a generic queue.
+/// Represents a generic queue data structure.
 /// </summary>
-/// <typeparam name="T">The type of elements in the queue.</typeparam>
+/// <typeparam name="T">The type of elements stored in the queue.</typeparam>
 public class Queue<T>
 {
     /// <summary>
     /// Represents a node in the queue.
     /// </summary>
-    public class Node
+    private class Node<TNode>
     {
-        /// <summary>
-        /// Gets or sets the value of the node.
-        /// </summary>
-        public T Value { get; }
+        public TNode Value;
+        public Node<TNode> Next;
 
         /// <summary>
-        /// Gets or sets the reference to the next node.
+        /// Creates a new instance of Node with the given value.
         /// </summary>
-        public Node? Next { get; set; }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Node"/> class with the specified value.
-        /// </summary>
-        /// <param name="value">The value of the node.</param>
-        public Node(T value)
+        /// <param name="newValue">The value to be stored in the node.</param>
+        public Node(TNode newValue)
         {
-            Value = value;
+            Value = newValue;
             Next = null;
         }
     }
 
-    private Node? Head { get; set; }
-    private Node? Tail { get; set; }
-    private int Count { get; set; }
+    private Node<T> head;
+    private Node<T> tail;
+    private int count = 0;
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="Queue{T}"/> class.
+    /// Adds an element to the end of the queue.
     /// </summary>
-    public Queue()
+    /// <param name="element">The element to add to the queue.</param>
+    public void Enqueue(T element)
     {
-        Head = null;
-        Tail = null;
-        Count = 0;
+        Node<T> newNode = new Node<T>(element);
+        
+        if (head == null)
+            head = tail = newNode;
+        else
+        {
+            tail.Next = newNode;
+            tail = newNode;
+        }
+        
+        count++;
     }
 
     /// <summary>
-    /// Adds a new node with the specified value to the end of the queue.
+    /// Gets the number of elements in the queue.
     /// </summary>
-    /// <param name="value">The value of the new node.</param>
-    public void Enqueue(T value)
+    /// <returns>The number of elements in the queue.</returns>
+    public int Count()
     {
-        Node newNode = new Node(value);
-        if (Head == null)
+        return count;
+    }
+
+    /// <summary>
+    /// Removes and returns the element at the beginning of the queue.
+    /// </summary>
+    /// <returns>The element that was removed from the queue, or default value if the queue is empty.</returns>
+    public T Dequeue()
+    {
+        T theValue;
+
+        if (head != null)
         {
-            Head = newNode;
-            Tail = newNode;
+            theValue = head.Value;
+            head = head.Next;
         }
         else
         {
-            Tail!.Next = newNode;
-            Tail = newNode;
-        }
-        Count++;
-    }
-
-    /// <summary>
-    /// Removes and returns the value of the first node in the queue.
-    /// </summary>
-    /// <returns>The value of the first node in the queue.</returns>
-    public T Dequeue()
-    {
-        if (Head == null)
-        {
             Console.WriteLine("Queue is empty");
-            return default(T)!; // Return default value if queue is empty
+            return default(T);
         }
 
-        T value = Head.Value;
-        Head = Head.Next;
-        Count--;
-        return value;
-    }
-
-    /// <summary>
-    /// Gets the number of nodes in the queue.
-    /// </summary>
-    /// <returns>The number of nodes in the queue.</returns>
-    public int CountNodes()
-    {
-        return Count;
+        return theValue;
     }
 }
+
+
+
+/*
 
 class Program
 {
@@ -102,22 +92,23 @@ class Program
 
         myIntQ.Enqueue(100);
         myIntQ.Enqueue(101);
-        Console.WriteLine("Number of nodes in queue: " + myIntQ.CountNodes());
+        Console.WriteLine("Number of nodes in queue: " + myIntQ.Count());
 
         Console.WriteLine("First value: " + myIntQ.Dequeue());
-        Console.WriteLine("Number of nodes in queue: " + myIntQ.CountNodes());
+        Console.WriteLine("Number of nodes in queue: " + myIntQ.Count());
 
         Console.WriteLine("----------");
 
         Queue<float> myFloatQ = new Queue<float>();
 
         myFloatQ.Enqueue(9.8f);
-        Console.WriteLine("Number of nodes in queue: " + myFloatQ.CountNodes());
+        Console.WriteLine("Number of nodes in queue: " + myFloatQ.Count());
 
         Console.WriteLine("First value: " + myFloatQ.Dequeue());
 
-        Console.WriteLine("Number of nodes in queue: " + myFloatQ.CountNodes());
+        Console.WriteLine("Number of nodes in queue: " + myFloatQ.Count());
 
         Console.WriteLine("First value: " + myFloatQ.Dequeue());
     }
 }
+*/
