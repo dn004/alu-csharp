@@ -1,30 +1,24 @@
 ﻿using System;
 
 /// <summary>
-/// Represents a generic queue.
+/// Represents a generic queue data structure.
 /// </summary>
-/// <typeparam name="T">The type of elements in the queue.</typeparam>
+/// <typeparam name="T">The type of elements stored in the queue.</typeparam>
+
+
+
 public class Queue<T>
 {
-    private Type type;
-
     /// <summary>
-    /// Initializes a new instance of the <see cref="Queue{T}"/> class.
+    /// Returns the type of elements stored in the queue.
     /// </summary>
-    public Queue()
-    {
-        type = typeof(T);
-    }
-
-    /// <summary>
-    /// Method to check the type of the Queue.
-    /// </summary>
-    /// <returns>The type of elements in the queue.</returns>
+    /// <returns>The type of elements stored in the queue.</returns>
     public Type CheckType()
     {
-        return type;
+        return typeof(T);
     }
 }
+
 class Program
 {
     static void Main(string[] args)
