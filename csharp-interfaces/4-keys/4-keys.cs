@@ -1,104 +1,96 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 /// <summary>
-/// Represents a base class with a name property.
+/// Base class representing an object with a name.
 /// </summary>
 public abstract class Base
 {
     /// <summary>
-    /// Gets or sets the name of the base entity.
+    /// The name of the object.
     /// </summary>
-    public string name { get; set; }
+    public string? name;
 
     /// <summary>
-    /// Overrides the ToString() method to return the name and type of the entity.
+    /// Returns a string representation of the object.
     /// </summary>
-    /// <returns>A string representing the name and type of the entity.</returns>
+    /// <returns>A string representation of the object.</returns>
     public override string ToString()
     {
-        return $"{name} is a {GetType().Name}";
+        return $"{name} is a {this.GetType()}";
     }
 }
 
+
+
 /// <summary>
-/// Represents an interface for interactive objects.
+/// Represents an interactive object.
 /// </summary>
 public interface IInteractive
 {
-    /// <summary>
-    /// Interacts with the object.
-    /// </summary>
-    void Interact();
+    public void Interact();
 }
 
+
+
 /// <summary>
-/// Represents an interface for breakable objects.
+/// Represents a breakable object.
 /// </summary>
 public interface IBreakable
 {
-    /// <summary>
-    /// Gets or sets the durability of the object.
-    /// </summary>
-    int durability { get; set; }
-
-    /// <summary>
-    /// Breaks the object.
-    /// </summary>
-    void Break();
+    public int durability{ get ; set;}
+    public void Break();
 }
 
+
+
 /// <summary>
-/// Represents an interface for collectable objects.
+/// Represents a collectable object.
 /// </summary>
 public interface ICollectable
 {
-    /// <summary>
-    /// Gets or sets a value indicating whether the object has been collected.
-    /// </summary>
-    bool isCollected { get; set; }
-
-    /// <summary>
-    /// Collects the object.
-    /// </summary>
-    void Collect();
+    public bool isCollected{ get ; set;}
+    public void Collect();
 }
 
+
 /// <summary>
-/// Represents a decoration entity.
+/// Represents a decoration object that can be interacted with and potentially broken.
 /// </summary>
-public class Decoration : Base, IInteractive, IBreakable
+class Decoration : Base, IInteractive, IBreakable
 {
     /// <summary>
-    /// Gets or sets the durability of the decoration.
+    /// Indicates whether the decoration item is a quest item.
     /// </summary>
-    public int durability { get; set; }
+    public bool isQuestItem;
 
     /// <summary>
-    /// Gets or sets a value indicating whether the decoration is a quest item.
+    /// The durability of the decoration item.
     /// </summary>
-    public bool isQuestItem { get; set; }
+    public int durability{ get ; set; }
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="Decoration"/> class with the specified name, durability, and quest item status.
+    /// Creates a new decoration item with the specified parameters.
     /// </summary>
-    /// <param name="name">The name of the decoration.</param>
-    /// <param name="durability">The durability of the decoration.</param>
-    /// <param name="isQuestItem">A value indicating whether the decoration is a quest item.</param>
-    public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
+    public Decoration(string CName = "Decoration", int durability = 1, bool isQuestItem = false)
     {
-        this.name = name;
-        this.durability = durability;
-
-        if (durability <= 0)
-        {
-            throw new ArgumentException("Durability must be greater than 0");
-        }
 
         this.isQuestItem = isQuestItem;
+        name = CName;
+        if(durability <= 0)
+        {
+            throw new Exception("Durability must be greater than 0");
+        }
+        else
+        {
+            this.durability = durability;
+        }
+     
     }
 
     /// <summary>
-    /// Interacts with the decoration.
+    /// Performs an interaction with the decoration item.
     /// </summary>
     public void Interact()
     {
@@ -106,65 +98,61 @@ public class Decoration : Base, IInteractive, IBreakable
         {
             Console.WriteLine($"The {name} has been broken.");
         }
-        else if (isQuestItem)
+        else if(isQuestItem == true)
         {
             Console.WriteLine($"You look at the {name}. There's a key inside.");
         }
-        else
+        else if (isQuestItem == false)
         {
             Console.WriteLine($"You look at the {name}. Not much to see here.");
         }
+
     }
 
     /// <summary>
-    /// Breaks the decoration.
+    /// Simulates breaking the decoration item.
     /// </summary>
     public void Break()
     {
-        durability--;
+        this.durability--;
 
-        if (durability > 0)
+        if(durability > 0)
         {
             Console.WriteLine($"You hit the {name}. It cracks.");
         }
-        else if (durability == 0)
+
+        if(durability == 0)
         {
             Console.WriteLine($"You smash the {name}. What a mess.");
         }
-        else
+
+        if(durability < 0)
         {
             Console.WriteLine($"The {name} is already broken.");
         }
     }
 }
 
+
+
+
+
 /// <summary>
-/// Represents a key entity.
+/// Represents a key item that can be collected.
 /// </summary>
-public class Key : Base, ICollectable
+class Key : Base, ICollectable
 {
     /// <summary>
-    /// Gets or sets a value indicating whether the key has been collected.
+    /// Indicates whether the key has been collected.
     /// </summary>
-    public bool isCollected { get; set; }
-
+    public bool isCollected{ get ; set;}
+    
     /// <summary>
-    /// Initializes a new instance of the <see cref="Key"/> class with the specified name and collection status.
-    /// </summary>
-    /// <param name="name">The name of the key.</param>
-    /// <param name="isCollected">A value indicating whether the key has been collected.</param>
-    public Key(string name = "Key", bool isCollected = false)
-    {
-        this.name = name;
-        this.isCollected = isCollected;
-    }
-
-    /// <summary>
-    /// Collects the key.
+    /// Collects the key item if it has not already been collected.
     /// </summary>
     public void Collect()
     {
-        if (!isCollected)
+        if(!isCollected)
         {
             isCollected = true;
             Console.WriteLine($"You pick up the {name}.");
@@ -173,5 +161,31 @@ public class Key : Base, ICollectable
         {
             Console.WriteLine($"You have already picked up the {name}.");
         }
+    } 
+
+    /// <summary>
+    /// Creates a new key item with the specified name and collected status.
+    /// </summary>
+    public Key (string name = "Key", bool isCollected = false)
+    {
+        this.name = name;
+        this.isCollected = isCollected;
     }
 }
+
+
+
+/*
+class Program
+{
+    static void Main(string[] args)
+    {
+        Key carKey = new Key("Car Key");
+
+        Console.WriteLine(carKey.ToString());
+
+        carKey.Collect();
+        carKey.Collect();
+    }
+}
+*/
