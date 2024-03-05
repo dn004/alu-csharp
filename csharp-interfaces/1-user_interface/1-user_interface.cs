@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 
 /// <summary>
 /// Base class representing an object with a name.
@@ -20,16 +22,33 @@ public abstract class Base
     }
 
 
+
+    /// <summary>
+    /// Represents an interactive object.
+    /// </summary>
+
     public interface IInteractive
     {
         public void Interact();
     }
+
+
+
+    /// <summary>
+    /// Represents a breakable object.
+    /// </summary>
 
     public interface IBreakable
     {
         public int durability{ get ; set;}
         public void Break();
     }
+
+
+
+    /// <summary>
+    /// Represents a collectable object.
+    /// </summary>
 
     public interface ICollectable
     {
@@ -38,11 +57,18 @@ public abstract class Base
     }
 }
 
+
+
+
+/// <summary>
+/// Represents a test object that implements interfaces.
+/// </summary>
+
 class TestObject : Base, Base.IInteractive, Base.IBreakable, Base.ICollectable
 {
 
-    public int durability{ get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-    public bool isCollected{ get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+    public int durability;
+    public bool isCollected;
 
     public void Interact()
     {
@@ -58,6 +84,8 @@ class TestObject : Base, Base.IInteractive, Base.IBreakable, Base.ICollectable
 }
 
 
+
+/*
 class Program
 {
     static void Main(string[] args)
@@ -76,3 +104,4 @@ class Program
             Console.WriteLine(info.Name);
     }
 }
+*/
