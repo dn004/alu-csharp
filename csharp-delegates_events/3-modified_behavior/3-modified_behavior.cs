@@ -1,5 +1,22 @@
 ﻿using System;
 
+
+
+
+
+public enum Modifier 
+{
+    Weak,
+    Strong
+}
+
+/// <summary>
+/// Delegate for calculating a modifier.
+/// </summary>
+/// <param name="baseValue">The base value.</param>
+/// <param name="modifier">The modifier to apply.</param>
+public delegate float CalculateModifier(float baseValue, Modifier modifier);
+
 /// <summary>
 /// Represents a player entity with health points.
 /// </summary>
