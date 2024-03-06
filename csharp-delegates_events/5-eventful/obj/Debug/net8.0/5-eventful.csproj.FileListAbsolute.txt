@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\bin\Debug\net8.0\5-eventful.exe
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\bin\Debug\net8.0\5-eventful.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\bin\Debug\net8.0\5-eventful.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\bin\Debug\net8.0\5-eventful.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\bin\Debug\net8.0\5-eventful.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.sourcelink.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\refint\5-eventful.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\5-eventful.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net8.0\ref\5-eventful.dll
