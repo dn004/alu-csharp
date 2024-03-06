@@ -1,0 +1,5 @@
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\3-modified_behavior\obj\Debug\net7.0\3-modified_behavior.sourcelink.json

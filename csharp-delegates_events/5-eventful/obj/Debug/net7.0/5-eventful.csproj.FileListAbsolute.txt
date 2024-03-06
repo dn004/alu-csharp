@@ -1,0 +1,5 @@
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\5-eventful\obj\Debug\net7.0\5-eventful.sourcelink.json
