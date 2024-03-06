@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\bin\Debug\net8.0\1-damage_delegation.exe
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\bin\Debug\net8.0\1-damage_delegation.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\bin\Debug\net8.0\1-damage_delegation.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\bin\Debug\net8.0\1-damage_delegation.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\bin\Debug\net8.0\1-damage_delegation.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.sourcelink.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\refint\1-damage_delegation.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\1-damage_delegation.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\1-damage_delegation\obj\Debug\net8.0\ref\1-damage_delegation.dll
