@@ -2,7 +2,7 @@
 
 public class BaseClass
 {
-    string? id;
+    string id {get; set;}
     DateTime date_created;
     DateTime date_updated;
 }
