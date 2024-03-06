@@ -1,0 +1,15 @@
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.AssemblyInfoInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.AssemblyInfo.cs
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.sourcelink.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net8.0\4-check_yourself.exe
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net8.0\4-check_yourself.deps.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net8.0\4-check_yourself.runtimeconfig.json
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net8.0\4-check_yourself.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\bin\Debug\net8.0\4-check_yourself.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\refint\4-check_yourself.dll
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.pdb
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\4-check_yourself.genruntimeconfig.cache
+C:\Users\user\Documents\alu-csharp\csharp-delegates_events\4-check_yourself\obj\Debug\net8.0\ref\4-check_yourself.dll
