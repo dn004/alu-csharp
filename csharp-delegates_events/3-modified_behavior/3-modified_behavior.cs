@@ -119,7 +119,7 @@ public class Player
             return baseValue / 2;
 
         if(modifier == Modifier.Strong)
-            return baseValue * 1f;
+            return baseValue * 1.5f;
 
         return baseValue;
     }
