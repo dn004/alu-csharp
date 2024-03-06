@@ -40,9 +40,13 @@ public class Player
 
 
 
+
     delegate void CalculateHealth(float value);
 
-
+    /// <summary>
+    /// Inflicts damage on the player.
+    /// </summary>
+    /// <param name="damage">The amount of damage to inflict.</param>
     public void TakeDamage(float damage)
     {
         if(damage < 0)
@@ -55,10 +59,13 @@ public class Player
         }
     }
 
-
+    /// <summary>
+    /// Heals the player by a certain amount.
+    /// </summary>
+    /// <param name="heal">The amount of health to restore.</param>
     public void HealDamage(float heal)
     {
-       if(heal < 0)
+        if(heal < 0)
         {
             System.Console.WriteLine($"{name} heals 0 HP!");
         }
@@ -68,6 +75,11 @@ public class Player
         } 
     }
 }
+
+
+
+
+
 
 
 
