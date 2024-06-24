@@ -1,23 +1,18 @@
 ﻿using System;
 
 /// <summary>
-/// Represents a generic queue data structure.
+/// queue of type defined
 /// </summary>
-/// <typeparam name="T">The type of elements stored in the queue.</typeparam>
-
-
-
-public class Queue<T>
-{
-    /// <summary>
-    /// Returns the type of elements stored in the queue.
-    /// </summary>
-    /// <returns>The type of elements stored in the queue.</returns>
-    public Type CheckType()
-    {
+/// <typeparam name="T"></typeparam>
+public class Queue<T>  {
+    
+    public Type CheckType(){
         return typeof(T);
     }
+
+    
 }
+
 
 
 
