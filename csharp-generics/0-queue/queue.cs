@@ -16,7 +16,7 @@ public class Queue<T>  {
 
 
 
-/*
+
 class Program
 {
     static void Main(string[] args)
@@ -28,4 +28,3 @@ class Program
         Console.WriteLine($"{nameof(myObjQ)} Queue Type: " + myObjQ.CheckType());
     }
 }
-*/
