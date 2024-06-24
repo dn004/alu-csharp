@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\alu-csharp\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
       "projectName": "0-queue",
-      "projectPath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\alu-csharp\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-generics\\0-queue\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\alu-csharp\\alu-csharp\\csharp-generics\\0-queue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

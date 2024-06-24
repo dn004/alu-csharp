@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hN24W4pf1mDjDYlSH8SRdTSAh2Zmmv5VOh/sf4rdVc2gBX7lTHK2fMbxtZxs7YTSdwSvxplsEpI7bN7bsmU+8A==",
+  "dgSpecHash": "qstCuD4wxZgmv5NscLl1uFGR6YMydT1WyPWR2WerJ81Vakl34WzYDKI9+43es0QveRewdcfOte/0tOnqnQKUyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Documents\\alu-csharp\\alu-csharp\\csharp-generics\\0-queue\\0-queue.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
