@@ -20,7 +20,6 @@ public abstract class Base
     }
 }
 
-
 /*
 class Program
 {
@@ -37,5 +36,4 @@ class SoftwareEngineer : Base
 {
     // Empty class
 }
-
 */
