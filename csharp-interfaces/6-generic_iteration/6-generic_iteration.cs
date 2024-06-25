@@ -1,140 +1,48 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections;
-
-
-/// <summary>
-/// Base class representing an object with a name.
-/// </summary>
-public abstract class Base
-{
-    /// <summary>
-    /// The name of the object.
-    /// </summary>
-    public string? name;
-
-    /// <summary>
-    /// Returns a string representation of the object.
-    /// </summary>
-    /// <returns>A string representation of the object.</returns>
-    public override string ToString()
-    {
-        return $"{name} is a {this.GetType()}";
-    }
-}
+using System.Collections.Generic;
 
 
 
 /// <summary>
-/// Represents an interactive object.
+/// interace for interactions
 /// </summary>
-public interface IInteractive
-{
+public interface IInteractive{
+
+    /// <summary>
+    /// interact method
+    /// </summary>
     public void Interact();
 }
 
 
-
 /// <summary>
-/// Represents a breakable object.
+/// interface for breakables
 /// </summary>
-public interface IBreakable
-{
-    public int durability{ get ; set;}
+public interface IBreakable {
+
+    // durability
+    public int durability { get ; set;}
+
+    /// <summary>
+    /// breaking stuff
+    /// </summary>
     public void Break();
 }
 
 
-
 /// <summary>
-/// Represents a collectable object.
+/// collecting stuff
 /// </summary>
-public interface ICollectable
-{
-    public bool isCollected{ get ; set;}
+public interface ICollectable{
+
+    // collecting
+    public bool isCollected { get ; set; }
+    /// <summary>
+    /// for collecting objects.
+    /// </summary>
     public void Collect();
 }
-
-
-/// <summary>
-/// Represents a decoration object that can be interacted with and potentially broken.
-/// </summary>
-class Decoration : Base, IInteractive, IBreakable
-{
-    /// <summary>
-    /// Indicates whether the decoration item is a quest item.
-    /// </summary>
-    public bool isQuestItem;
-
-    /// <summary>
-    /// The durability of the decoration item.
-    /// </summary>
-    public int durability{ get ; set; }
-
-    /// <summary>
-    /// Creates a new decoration item with the specified parameters.
-    /// </summary>
-    public Decoration(string CName = "Decoration", int durability = 1, bool isQuestItem = false)
-    {
-
-        this.isQuestItem = isQuestItem;
-        name = CName;
-        if(durability <= 0)
-        {
-            throw new Exception("Durability must be greater than 0");
-        }
-        else
-        {
-            this.durability = durability;
-        }
-     
-    }
-
-    /// <summary>
-    /// Performs an interaction with the decoration item.
-    /// </summary>
-    public void Interact()
-    {
-        if (durability <= 0)
-        {
-            Console.WriteLine($"The {name} has been broken.");
-        }
-        else if(isQuestItem == true)
-        {
-            Console.WriteLine($"You look at the {name}. There's a key inside.");
-        }
-        else if (isQuestItem == false)
-        {
-            Console.WriteLine($"You look at the {name}. Not much to see here.");
-        }
-
-    }
-
-    /// <summary>
-    /// Simulates breaking the decoration item.
-    /// </summary>
-    public void Break()
-    {
-        this.durability--;
-
-        if(durability > 0)
-        {
-            Console.WriteLine($"You hit the {name}. It cracks.");
-        }
-
-        if(durability == 0)
-        {
-            Console.WriteLine($"You smash the {name}. What a mess.");
-        }
-
-        if(durability < 0)
-        {
-            Console.WriteLine($"The {name} is already broken.");
-        }
-    }
-}
-
-
 
 /// <summary>
 /// Door class for controlling a door
@@ -151,78 +59,128 @@ public class Door : Base , IInteractive{
 }
 
 
+/// <summary>
+///  decoration class defination
+/// </summary>
+public class Decoration : Base , IInteractive, IBreakable{
+    public bool isQuestItem = false;
+
+    public int durability { get ; set; }
 
 
+    public Decoration(string CName = "Decoration", int durability = 1, bool isQuestItem = false){
+
+        this.isQuestItem = isQuestItem;
+        name = CName;
+        if(durability <= 0){
+            throw new Exception("Durability must be greater than 0");
+        }else{
+            this.durability = durability;
+        }
+     
+    }
 
 
 /// <summary>
-/// Represents a key item that can be collected.
+/// called when interacting with an object
 /// </summary>
-class Key : Base, ICollectable
-{
-    /// <summary>
-    /// Indicates whether the key has been collected.
-    /// </summary>
-    public bool isCollected{ get ; set;}
-    
-    /// <summary>
-    /// Collects the key item if it has not already been collected.
-    /// </summary>
-    public void Collect()
-    {
-        if(!isCollected)
-        {
-            isCollected = true;
-            Console.WriteLine($"You pick up the {name}.");
-        }
-        else
-        {
-            Console.WriteLine($"You have already picked up the {name}.");
-        }
-    } 
+    public void Interact(){
 
-    /// <summary>
-    /// Creates a new key item with the specified name and collected status.
-    /// </summary>
-    public Key (string name = "Key", bool isCollected = false)
-    {
+        if(durability <= 0 ){
+            Console.WriteLine($"The {name} has been broken.");
+        }else if(isQuestItem){
+            Console.WriteLine($"You look at the {name}. There's a key inside.");
+        }else{
+            Console.WriteLine($"You look at the {name}. Not much to see here.");
+        }
+     
+    }
+
+
+/// <summary>
+/// breaking an object function
+/// </summary>
+    public void Break(){
+        this.durability--;
+
+        if(durability > 0){
+            Console.WriteLine($"You hit the {name}. It cracks.");
+        }
+
+        if(durability == 0){
+            Console.WriteLine($"You smash the {name}. What a mess.");
+        }
+
+        if(durability < 0){
+            Console.WriteLine($"The {name} is already broken.");
+        }
+    }
+
+}
+
+
+/// <summary>
+/// method for picking up key.
+/// </summary>
+public class Key : Base , ICollectable {
+
+
+/// <summary>
+/// check collections options.
+/// </summary>
+    public bool isCollected { set ; get ; }
+
+
+/// <summary>
+/// manages default setup values
+/// </summary>
+/// <param name="name"></param>
+/// <param name="isCollected"></param>
+    public Key (string name = "Key", bool isCollected = false){
         this.name = name;
         this.isCollected = isCollected;
     }
-}
+
 
 /// <summary>
-/// Represents a generic collection of objects.
+///  manages collections states
 /// </summary>
-public class Objs<T> : IEnumerable<T>
-{
+    public void Collect(){
+        if(!isCollected){
+            isCollected = true;
+            Console.WriteLine($"You pick up the {name}.");
+        }else{
+               Console.WriteLine($"You have already picked up the {name}.");
+        }
+
+    }
+
+
+}
+
+
+/// <summary>
+/// generic template for IEnumerable
+/// </summary>
+/// <typeparam name="T"></typeparam>
+public class Objs<T> : IEnumerable<T>{
+
     private readonly List<T> items = new List<T>();
 
-    /// <summary>
-    /// Adds an item to the collection.
-    /// </summary>
-    /// <param name="item">The item to add.</param>
-    public void Add(T item)
-    {
+
+    public void Add(T item){
         items.Add(item);
     }
 
-    /// <summary>
-    /// Returns an enumerator that iterates through the collection.
-    /// </summary>
-    /// <returns>An enumerator that can be used to iterate through the collection.</returns>
     public IEnumerator<T> GetEnumerator()
     {
-        foreach (var item in items)
-        {
-            yield return item;
-        }
+       // throw new NotImplementedException();\
+       foreach(var item in items){
+         yield return item;
+       }
+        
     }
 
-    /// <summary>
-    /// Returns an enumerator that iterates through the collection.
-    /// </summary>
-    /// <returns>An enumerator that can be used to iterate through the collection.</returns>
     IEnumerator IEnumerable.GetEnumerator()
     {
         return GetEnumerator();
@@ -231,11 +189,23 @@ public class Objs<T> : IEnumerable<T>
 
 
 
+/// <summary>
+/// base class for everythign.
+/// </summary>
+public abstract class Base{
+
+    public string? name { get ; set; }
+
+    public override String ToString(){
+        return $"{name} is a {this.GetType()}";
+    }
+}
+
+
 
 
 
 /*
-
 class Program
 {
     static void Main(string[] args)
@@ -271,5 +241,4 @@ class Program
         }
     }
 }
-
 */
