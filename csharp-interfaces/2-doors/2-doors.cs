@@ -1,85 +1,74 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
-
-/// <summary>
-/// Base class representing an object with a name.
-/// </summary>
-public abstract class Base
-{
-    /// <summary>
-    /// The name of the object.
-    /// </summary>
-    public string? name;
-
-    /// <summary>
-    /// Returns a string representation of the object.
-    /// </summary>
-    /// <returns>A string representation of the object.</returns>
-    public override string ToString()
-    {
-        return $"{name} is a {this.GetType()}";
-    }
-}
-
 
 
 /// <summary>
-/// Represents an interactive object.
+/// interace for interactions
 /// </summary>
+public interface IInteractive{
 
-public interface IInteractive
-{
+    /// <summary>
+    /// interact method
+    /// </summary>
     public void Interact();
 }
 
 
-
 /// <summary>
-/// Represents a breakable object.
+/// interface for breakables
 /// </summary>
+public interface IBreakable {
 
-public interface IBreakable
-{
-    public int durability{ get ; set;}
+    // durability
+    public int durability { get ; set;}
+
+    /// <summary>
+    /// breaking stuff
+    /// </summary>
     public void Break();
 }
 
 
-
 /// <summary>
-/// Represents a collectable object.
+/// collecting stuff
 /// </summary>
+public interface ICollectable{
 
-public interface ICollectable
-{
-    public bool isCollected{ get ; set;}
+    // collecting
+    public bool isCollected { get ; set; }
+    /// <summary>
+    /// for collecting objects.
+    /// </summary>
     public void Collect();
 }
 
-
 /// <summary>
-/// Door class for enganging the door
+/// Door class for controlling a door
 /// </summary>
+public class Door : Base , IInteractive{
 
-class Door : Base, IInteractive
-{
-    public Door (string intake)
-    {
-        if(intake != null)
-        {
-            name = intake;
-        }
-        else
-        {
-            name = "Door";
-        }
+    public Door(string value = "Door"){
+        name = value;
     }
-    public void Interact()
-    {
+
+    public void Interact(){
         Console.WriteLine($"You try to open the {name}. It's locked.");
     }
 }
+
+
+/// <summary>
+/// base class for everythign.
+/// </summary>
+public abstract class Base{
+
+    public String? name { get ; set; }
+
+    public override String ToString(){
+        return $"{name} is a {this.GetType()}";
+    }
+}
+
 
 
 /*
